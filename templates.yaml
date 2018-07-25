@@ -1,0 +1,83 @@
+# Each question has 3 answers
+# The correct answer should be listed last
+
+
+facts: 'While you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python’s Flying Circus. Python’s creator named the language in honour of the TV show.
+One of the amazing features of Python is the fact that it is actually one person’s work. Usually, new programming languages are developed and published by large companies employing lots of professionals, and due to copyright rules, it is very hard to name any of the people involved in the project. Python is an exception. There are not many languages whose authors are known by name.
+Python was created by Guido van Rossum, born in 1956 in Haarlem, the Netherlands. Of course, van Rossum did not develop and evolve all the Python components himself.
+Guido van Rossum defined his goals for Python:
+·         an easy and intuitive language just as powerful as those of the major competitors;
+·         open source, so anyone can contribute to its development;
+·         code that is as understandable as plain English;
+·         suitable for everyday tasks, allowing for short development times.
+Let us look at Python functions. There are a number of functions in Python which have different effects and results in the program. Let’s look at the Print function. It is used to display the program output as arguments. However, when there are no arguments i.e. an empty print function, it creates a new line.
+So when you run a Python program and get results or outputs, how do you store them for later use? Python will help you with that. It offers special “boxes” (containers) for that purpose, and these boxes are called variables – the name itself suggests that the content of these containers can be varied in (almost) any way. So every Python variable have two things in common:
+·         a name;
+·         a value (the content of the container)
+Let’s start with the issues related to a variable’s name. Variables do not appear in a program automatically. As developer, you must decide how many and which variables to use in your programs. You must also name them.  If you want to give a name to a variable, you must follow some strict rules. We will discuss tis in detail at a later course.
+Thank you for competing this part of the course.'
+
+
+questions:
+  - Where does the name Python for the programming language come from?
+  - Who created Python programming language?
+  - One of the goals defined for Python by its creator was? 
+  - What function is used to display the output of a Python program?
+  - When the print function does not have an argument i.e. empty, which of the following would occur?
+  - How does Python store results or outputs from operations? 
+  - What are the basic compositions of Python storage containers?
+  - Who creates the variables for the python program?
+  - The number of variables for a Python program is always...
+  - When naming a variable...
+
+answers:
+  - A BBC comedy sketch series
+  - A snake
+  - An inventor 
+  - Guido van Rossum
+  - Larry Wall
+  - Linus Torvalds
+  - Open source so that anyone can contribute to its development
+  - Suitable for specific tasks
+  - Not as understandable as plain English
+  - Print()
+  - Len()
+  - Str()
+  - It goes to a new line
+  - There is a syntax error
+  - There is a logical error
+  - As Variables
+  - As Sets
+  - As Slices
+  - Name and value
+  - Size and Depth
+  - Width and Height
+  - The developer
+  - Appears in the program automatically
+  - Not required for the program
+  - Depends on the person creating the program
+  - Fixed
+  - The program automatically helps you with this issue
+  - There are strict rules you must follow
+  - There are flexible rules
+  - There are no rules to follow
+
+
+welcome: Welcome to The Python quiz. 
+
+activity_selection: Would you like to hear about Python, or start the quiz?
+
+answer: ' {{ number }}... {{ statement}}. '
+
+win: Well done, that was the correct answer. Your current score is {{ score }}.
+
+lose: Sorry, that's the wrong answer. The correct answer was {{ correct_option }}, {{ correct_text }}. 
+
+continue_prompt: Would you like another question?
+
+repeat: Can you repeat that please?
+
+goodbye: Let's play again soon!
+
+complete: Wow, you answered all the questions and got a final score of {{ score }}. Well done!
+

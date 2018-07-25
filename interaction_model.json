@@ -1,0 +1,73 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "python quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop game",
+                        "alexa stop",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "GiveInfo",
+                    "slots": [],
+                    "samples": [
+                        "hear about python",
+                        "about python"
+                    ]
+                },
+                {
+                    "name": "StartTheQuiz",
+                    "slots": [],
+                    "samples": [
+                        "play the quiz",
+                        "start the quiz"
+                    ]
+                },
+                {
+                    "name": "AnswerQuizQuestion",
+                    "slots": [
+                        {
+                            "name": "option",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{option}",
+                        "it's {option}",
+                        "number {option}"
+                    ]
+                },
+                {
+                    "name": "ContinueQuizYes",
+                    "slots": [],
+                    "samples": [
+                        "yes thanks",
+                        "continue",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "ContinueQuizNo",
+                    "slots": [],
+                    "samples": [
+                        "no thanks",
+                        "no"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
